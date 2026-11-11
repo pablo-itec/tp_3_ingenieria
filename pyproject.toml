@@ -1,0 +1,13 @@
+[project]
+name = "tp3-django-biblioteca"
+version = "0.1.0"
+description = "TP3 - API REST de biblioteca con Django REST Framework"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.1",
+    "djangorestframework>=3.18.0",
+    "djangorestframework-simplejwt>=5.5.1",
+]
+
+[tool.uv]
+package = false
